@@ -7,7 +7,7 @@ print(fruits)  # ('apple', 'banana', 'cherry')
 
 
 # **2. Without parentheses (tuple packing)**
-# numbers = 1, 2, 3
+numbers = 1, 2, 3
 print(numbers)  # (1, 2, 3)
 
 # **3. Single-item tuple (must include a comma)**
