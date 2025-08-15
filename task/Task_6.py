@@ -59,4 +59,4 @@ while True:
         voters.add(name)
         print("Voter registered successfully.")
 
-print("Total unique voters registered:", len(voters))   
+print("Total unique voters registered:", len(voters))
