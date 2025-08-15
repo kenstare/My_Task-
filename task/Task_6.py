@@ -14,13 +14,13 @@ print(favourite_fruits)
 
 attendees = set()
 while True:
-    name = input("Enter attendee's name: ")
+    name = input("Enter attendee's name (or 'done' to finish): ")
     if name.lower() == 'done':
         break
     attendees.add(name)
 print(sorted(attendees))
 
-# **Task3: Simulate a football match ticket system**
+# **Task3: Simulate a football match ticket system** 
 # - Store all seat numbers (1 to 50) in a set
 # - Ask users to "book" a seat by entering the number.
 # - Remove booked seats from the set.
