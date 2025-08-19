@@ -14,7 +14,7 @@ store = {"Book": 10, "Pen": 20, "Bag": 5}
 # Task5: Store Inventory Update
 
 # Create a dictionary called store with items and their available quantities
-store = {"Book": 10, "Pen": 20, "Bag": 5}
+store = {"Book": 500, "Pen": 100, "Bag": 2000}
 
 # Print the inventory before purchase
 print(f"Before purchase: {store}")
@@ -26,10 +26,7 @@ item = input("Enter the item you want to buy: ")
 quantity = int(input("Enter the quantity you want to purchase: "))
 
 # Use the assignment operator -= to update the item quantity in the dictionary
-if item in store and store[item] >= quantity:
-    store[item] -= quantity
-else:
-    print("Sorry, item not available or insufficient quantity.")
-    
-    # Print the inventory after purchase
-print(f"After purchase: {store}") 
+store[item] -= quantity
+
+# Print the inventory after purchase
+print(f"After purchase: {store}")
