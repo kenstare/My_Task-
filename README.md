@@ -1,1 +1,1 @@
-# learning python to become AI enginnre 
+# learning python to become AI engineer 
